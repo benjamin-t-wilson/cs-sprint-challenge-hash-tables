@@ -7,6 +7,14 @@ def finder(files, queries):
     YOUR CODE HERE
     """
     # Your code here
+    result = []
+    cache = {}
+
+    #for path in files:
+    #    for file in queries:
+    #        if file in path:
+    #            result.append(path)
+    # this will work for short things, but a million? Prob not. Need to think more.
 
     return result
 
